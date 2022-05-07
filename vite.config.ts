@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     Pages(),
     Unocss({
-      presets: [presetUno(), presetWind(), presetAttributify()]
+      presets: [presetUno(), presetWind(), presetAttributify(), presetMini()]
     })
   ]
 });
